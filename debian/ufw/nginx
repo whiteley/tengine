@@ -1,0 +1,14 @@
+[Tengine HTTP]
+title=Web Server (Tengine, HTTP)
+description=Small, but very powerful and efficient web server
+ports=80/tcp
+
+[Tengine HTTPS]
+title=Web Server (Tengine, HTTPS)
+description=Small, but very powerful and efficient web server
+ports=443/tcp
+
+[Tengine Full]
+title=Web Server (Tengine, HTTP + HTTPS)
+description=Small, but very powerful and efficient web server
+ports=80,443/tcp

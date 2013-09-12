@@ -1,0 +1,45 @@
+Source: tengine
+Section: httpd
+Priority: optional
+Maintainer: Engine Yard, Inc. Packaging <packaging@engineyard.com>
+Build-Depends: autotools-dev,
+               debhelper (>= 9),
+               dpkg-dev (>= 1.16.1),
+               libexpat-dev,
+               libgd2-noxpm-dev,
+               libgeoip-dev,
+               libjemalloc-dev,
+               liblua5.1-dev,
+               libmhash-dev,
+               libpam0g-dev,
+               libpcre3-dev,
+               libssl-dev,
+               libxslt1-dev,
+               zlib1g-dev
+Standards-Version: 3.9.4
+Homepage: http://tengine.taobao.org/
+Vcs-Git: git://github.com/alibaba/tengine.git
+Vcs-Browser: https://github.com/alibaba/tengine
+
+Package: tengine
+Architecture: any
+Depends: lsb-base (>= 4.0-0), ${misc:Depends}, ${shlibs:Depends}
+Provides: httpd, nginx, tengine
+Conflicts: nginx-common
+Description: small, but very powerful and efficient web server and mail proxy
+ Tengine is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+
+Package: tengine-doc
+Architecture: all
+Section: doc
+Depends: lsb-base (>= 4.0-0), ${misc:Depends}
+Description: small, but very powerful and efficient web server (documentation)
+ Tengine is a web server created by Igor Sysoev and kindly provided to
+ the open-source community. This server can be used as standalone HTTP server
+ and as a reverse proxy server before some Apache or another big server to
+ reduce load to backend servers by many concurrent HTTP-sessions.
+ .
+ This package provides extra documentation to help unleash the power of Tengine.

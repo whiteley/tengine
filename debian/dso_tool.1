@@ -1,0 +1,35 @@
+.TH "dso_tool" "1" "" "" ""
+.SH "NAME"
+dso_tool \- third party module build tool for tengine
+.SH "SYNOPSIS"
+\fBdso_tool\fR [\fIoptions\fR]
+.SH "DESCRIPTION"
+.PP
+\fBtengine\fR is a server that can be used as standalone HTTP server and as
+a reverse proxy server before some Apache or another big server to reduce
+load to backend servers by many concurrent HTTP\-sessions. Use this script
+to compile third party modules.
+.SH "OPTIONS"
+.TP
+A summary of options is included below:
+.TP
+\fB\-?\fR,\fB\-h\fR
+Show this help.
+.TP
+\fB\-d\fR \fIdst\fR
+Set module installation path.
+.TP
+\fB\-a\fR \fIadd-module\fR
+Set external module which will be compiled.
+.TP
+\fB\-s\fR \fInginx-source\fR
+Set nginx source root.
+.TP
+.SH "SEE ALSO"
+Website: <http://tengine.taobao.org/document/dso.html>
+.TP
+.SH "AUTHORS"
+\fBdso_tool\fR was written by Alibaba Group Holding Limited.
+.TP
+This manual page was written by Matt Whiteley <mwthiteley@engineyard.com
+for the Debian project (but may be used by others).

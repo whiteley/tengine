@@ -1,0 +1,41 @@
+tengine (1.5.1-7) precise; urgency=low
+
+  * Fixup package maintainer scripts
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Thu, 12 Sep 2013 05:43:10 -0700
+
+tengine (1.5.1-6) precise; urgency=low
+
+  * Disable -dbg package
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Thu, 12 Sep 2013 01:05:39 -0700
+
+tengine (1.5.1-5) precise; urgency=low
+
+  * Fix logrotate name and nginx/[conf.d,sites-enabled] directories
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Wed, 11 Sep 2013 23:39:28 -0700
+
+tengine (1.5.1-4) precise; urgency=low
+
+  * Update build-depends
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Wed, 11 Sep 2013 23:00:19 -0700
+
+tengine (1.5.1-3) precise; urgency=low
+
+  * Update rules to use debhelper overrides only where possible
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Wed, 11 Sep 2013 22:43:12 -0700
+
+tengine (1.5.1-2) precise; urgency=low
+
+  * Fix rules syntax
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Wed, 11 Sep 2013 21:58:45 -0700
+
+tengine (1.5.1-1) precise; urgency=low
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Matt Whiteley <mwhiteley@engineyard.com>  Wed, 11 Sep 2013 16:40:56 -0700

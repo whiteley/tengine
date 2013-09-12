@@ -1,0 +1,6 @@
+debian/conf/* etc/nginx
+debian/ufw/nginx etc/ufw/applications.d
+html/* usr/share/nginx/www/
+objs/dso_tool usr/sbin
+objs/nginx usr/sbin
+objs/modules/* usr/lib/nginx/modules

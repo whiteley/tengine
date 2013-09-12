@@ -1,0 +1,4 @@
+etc/nginx/conf.d
+etc/nginx/sites-enabled
+var/lib/nginx
+var/log/nginx
